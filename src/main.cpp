@@ -8,41 +8,11 @@
 
 int main(int argc, char** argv){
 
-    if(argc != 6)
-    {
-        std::cerr << "Incorrect number of command line arguments - expected 6, got " << argc << std::endl;
-        return 1;
-    }
-
-    std::string info_file_path="";
-    std::string output_file_path = "";
-    std::string products_file_path = "";
-    std::string counters_file_path = "";
-    int iteration_number = 0;
-
-    std::cout << argc
-        << " arguments have been passed." << "\n";
-
-    std::stringstream stream;
-    stream << argv[1];
-    stream >> output_file_path;
-    stream.clear();
-
-    stream << argv[2];
-    stream >> info_file_path;
-    stream.clear();
-
-    stream << argv[3];
-    stream >> products_file_path;
-    stream.clear();
-
-    stream << argv[4];
-    stream >> counters_file_path;
-    stream.clear();
-
-    stream << argv[5];
-    stream >> iteration_number;
-    stream.clear();
+    std::string output_file_path = "data/output_file.txt";
+    std::string info_file_path="data/info.txt";
+    std::string products_file_path = "data/products.txt";
+    std::string counters_file_path = "data/counters.txt";
+    int iteration_number = 10;
 
     std::cout << output_file_path << info_file_path << products_file_path << counters_file_path << iteration_number;
 

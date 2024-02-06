@@ -6,7 +6,7 @@
 
 std::string Random::getRandomName(){
     int lineNumber = getRandomInteger(1,100);
-    FileManager f("../data/names.txt");
+    FileManager f("data/names.txt");
     std::string name = f.readNthLine(lineNumber);
 
     return name; 
@@ -14,7 +14,7 @@ std::string Random::getRandomName(){
 
 std::string Random::getRandomSurname(){
     int lineNumber = getRandomInteger(1,100);
-    FileManager f("../data/surnames.txt");
+    FileManager f("data/surnames.txt");
     std::string surname = f.readNthLine(lineNumber);
 
     return surname; 
