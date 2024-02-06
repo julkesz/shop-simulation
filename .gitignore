@@ -1,0 +1,4 @@
+.vscode/
+*.exe
+src/.vscode/
+tests/.vscode/

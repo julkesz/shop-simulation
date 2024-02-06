@@ -1,0 +1,6 @@
+$$Product
+54 rice 5.45 8
+2 apple 1.19 8
+7 toy 7.99 23
+20 candy 0.22 0
+;

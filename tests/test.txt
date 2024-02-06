@@ -1,0 +1,10 @@
+BILL FOR Client 2: John Doe
+1. Product 1, Price Gross: 5,00 USD
+2. Product 2, Price Gross: 10,00 USD
+Discount for regular clients: 20%: 3,00 USD
+Total price: 12,00 USD
+BILL FOR Client 2: John Doe
+1. Product 1, Price Gross: 5,00 USD
+2. Product 2, Price Gross: 10,00 USD
+Discount for regular clients: 20%: 3,00 USD
+Total price: 12,00 USD
