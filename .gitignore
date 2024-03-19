@@ -1,8 +1,8 @@
 .vscode/
+*.exe
 src/.vscode/
 tests/.vscode/
 CMakeFiles/
 *.cmake
 CMakeCache.txt
 MakeFile
-ShopSimulation
