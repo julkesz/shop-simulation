@@ -18,3 +18,11 @@ The program has the following characteristics:
 - **STL** vectors, maps, queues are used to properly store data.
 - Some level of **randomness** is applied to generate number of employees, clients and products they choose.
 - Unit tests are written using **Catch2** library.
+
+
+## Running the application
+To run the program, run the executable file located in main directory:
+```
+./ShopSimulation
+```
+The information needed to start the simulation is stored in /data directory. When the simulation is completed, its output is written to /data/output_file.txt.
